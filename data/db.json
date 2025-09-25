@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "patient1",
+      "password": "password",
+      "role": "patient",
+      "name": "Hemanth Kumar"
+    },
+    {
+      "id": "2",
+      "username": "doctor1",
+      "password": "password",
+      "role": "doctor",
+      "name": "Dr. Kavita Sharma",
+      "specialty": "General Physician"
+    },
+    {
+      "id": "3",
+      "username": "admin1",
+      "password": "password",
+      "role": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "4",
+      "username": "nurse1",
+      "password": "password",
+      "role": "nurse",
+      "name": "Nurse Priya"
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "userId": 1,
+      "name": "Hemanth Kumar",
+      "age": 35,
+      "gender": "Male",
+      "medicalHistory": "No major issues.",
+      "prescriptions": [
+        {
+          "id": 101,
+          "doctor": "Dr. Kavita Sharma",
+          "date": "2023-10-26",
+          "medications": [
+            {
+              "name": "Paracetamol",
+              "dosage": "500mg",
+              "instructions": "Twice a day"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "doctors": [
+    {
+      "id": "2",
+      "userId": 2,
+      "name": "Dr. Kavita Sharma",
+      "specialty": "General Physician",
+      "hospital": "Nabha Civil Hospital",
+      "appointments": [
+        {
+          "id": 201,
+          "patientId": 1,
+          "date": "2023-10-27",
+          "time": "10:30 AM",
+          "status": "Scheduled"
+        }
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": 1,
+      "doctorId": 2,
+      "date": "2023-10-27",
+      "time": "10:30 AM",
+      "status": "Scheduled",
+      "notes": "Patient with mild fever and cough."
+    },
+    {
+      "id": "a434",
+      "patientId": "1",
+      "doctorId": 2,
+      "date": "2025-09-25",
+      "time": "10:00 AM",
+      "status": "Scheduled",
+      "notes": "fever"
+    }
+  ],
+  "pharmacy_inventory": [
+    {
+      "id": "1",
+      "name": "City Pharmacy",
+      "location": "Near Nabha Civil Hospital",
+      "medicines": [
+        {
+          "name": "Paracetamol",
+          "stock": 500
+        },
+        {
+          "name": "Amoxicillin",
+          "stock": 200
+        }
+      ]
+    }
+  ]
+}
