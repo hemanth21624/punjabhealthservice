@@ -8,7 +8,7 @@ const Home = () => {
       <Container>
         <Row className="justify-content-center">
           <Col md={8}>
-            <h1 className="display-4 fw-bold">Arogya Connect: Healthcare for Every Home</h1>
+            <h1 className="display-4 fw-bold">Punjab Health Service: Healthcare for Every Home</h1>
             <p className="lead my-4">
               Connecting rural communities to quality healthcare through telemedicine.
             </p>

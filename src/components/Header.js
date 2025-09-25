@@ -19,7 +19,7 @@ const Header = ({ user, onLogout }) => {
       <Navbar bg="primary" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>Arogya Connect</Navbar.Brand>
+            <Navbar.Brand>Punjab Health Service</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -8,7 +8,7 @@ const Footer = () => {
       <Container className="p-4">
         <Row>
           <Col lg={6} md={12} className="mb-4 mb-md-0">
-            <h5 className="text-uppercase"><FaHeartbeat className="me-2" />Arogya Connect</h5>
+            <h5 className="text-uppercase"><FaHeartbeat className="me-2" />Punjab Health Service</h5>
             <p>
               Your trusted partner for rural healthcare. Bridging the gap between patients and medical professionals.
             </p>
@@ -27,7 +27,7 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="text-center p-3 bg-dark text-white">
-        © 2025 Copyright: Arogya Connect
+        © 2025 Copyright: Punjab Health Service
       </div>
     </footer>
   );
